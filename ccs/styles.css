@@ -149,3 +149,19 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.multimedia{
+width: 800;
+background-color: aliceblue;
+
+}
+.multimedia audio{
+width: 600;
+}
+
+/*estadios*/
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+border: #540606;
+border-collapse: collapse;
+
+}
