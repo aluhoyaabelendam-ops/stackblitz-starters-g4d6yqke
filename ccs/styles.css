@@ -74,10 +74,10 @@ section {
   justify-content: center;
 }
 section div{
-  width: 33% ;
-  height: 350px;
-  background-color: rgb(224, 225, 156);
-  margin-left: 2px;
+  width: 300px ;
+  height: 170px;
+  background-color: rgb(244, 248, 0);
+  margin: 5px;
 }
 #intro{
 background-image: url(https://img.freepik.com/vector-gratis/estrellas-colores-sobre-fondo-blanco_1110-524.jpg?semt=ais_hybrid&w=740&q=80);
@@ -85,15 +85,15 @@ box-shadow: 5px 3px #aaa;
 border-radius: 15px;
 }
 #eeuu{
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/3840px-Flag_of_the_United_States_%281912-1959%29.svg.png);
+background-image: url(../img/banderaeeuu\ \(1\).png);
 background-size: cover;
 }
 #mx{
-background-image: url(https://preview.redd.it/agrarian-socialist-flag-of-mexico-v0-pp6wvml6eaya1.jpg?width=640&crop=smart&auto=webp&s=0dfa1966615d893f817d2413e1ef7e90a22d2977);
+background-image: url(../img/banderamex\ \(1\).png);
 background-repeat: no-repeat;
 }
 #can{
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/330px-Flag_of_Canada_%28Pantone%29.svg.png);
+background-image: url(../img/banderacan\ \(1\).svg)
 background-repeat: no-repeat;
 }
 /*fin de main*/
