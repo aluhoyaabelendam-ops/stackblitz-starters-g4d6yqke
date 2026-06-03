@@ -85,16 +85,18 @@ box-shadow: 5px 3px #aaa;
 border-radius: 15px;
 }
 #eeuu{
-background-image: url(../img/banderaeeuu\ \(1\).png);
+background-image: url(../img/banderaeeuu.png);
 background-size: cover;
 }
 #mx{
-background-image: url(../img/banderamex\ \(1\).png);
+background-image: url(../img/banderamex.png);
 background-repeat: no-repeat;
+background-size: cover;
 }
 #can{
-background-image: url(../img/banderacan\ \(1\).svg)
+background-image: url(../img/banderacan.svg);
 background-repeat: no-repeat;
+background-size: cover;
 }
 /*fin de main*/
 /*camienzo de estadios*/
