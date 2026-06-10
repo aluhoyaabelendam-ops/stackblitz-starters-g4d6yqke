@@ -160,8 +160,24 @@ width: 600;
 }
 
 /*estadios*/
-#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
-border: #540606;
-border-collapse: collapse;
-
+#estadosunidos,#estadosunidos tr, #estadosunidos td, #estadosunidos th{
+  border: solid rgb(237, 100, 100) 3px;
+  border-collapse: collapse;
+}
+#estadosunidos img{
+  width: 200px;
+}
+#canada, #canada tr, #canada td, #canada th{
+  border: solid rgb(237, 105, 100) 3px;
+  border-collapse: collapse;
+}
+#canada img{
+  width: 200px;
+}
+#mexico, #mexico tr, #mexico td, #mexico th{
+  border: solid rgb(237, 100, 100) 3px;
+  border-collapse: collapse;
+}
+#mexico img{
+  width: 200px;
 }
