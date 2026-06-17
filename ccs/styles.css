@@ -63,8 +63,8 @@ nav a[aria-current='page'] {
 /*fin nav*/
 /*inicio main*/
 section {
-  width: 1000px;
-  height: 400px;
+  width: 80%;
+  height: 100%;
   background-color: rgb(196, 186, 206);
   margin: 0 auto;
   margin-bottom: 5px;
@@ -103,7 +103,9 @@ background-size: cover;
 table, td, th{
   background-color: 8px solid red;
 }
-
+img{
+  width: 40%;
+}
 /*inicio del footer*/
 footer {
   background-color: #000;
@@ -149,7 +151,51 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
-
+ /*campeones******/
+ /****** /* Contenedor principal: Divide el diseño en dos columnas (continente y paises) */
+.campeones{
+display: grid;
+grid-template-columns: 1fr 3fr;/* 25% para continente, 75% para paises */
+border: 2px solid #000;
+width: 100%;
+}
+/* columna izquierda: continente ocupara todo el alto disponible automaticamente*/
+.continente {
+  border-right: 2px solid #000;
+  padding: 15px 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+/*columna derecgha :se convierte en otro grild para organizar el contenido interno*/
+.paises{
+display: grid;
+grid-template-columns: 1fr 1fr;/*dividido en 2 columnas para las fotos */
+}
+/* el titulo del pais ocupa las dos columnas */
+.pais {
+grid-column: span 2;
+padding: 10px;
+font-weight: bold;
+font-size: 13px;
+border-bottom: 2px #000;
+}
+/*las fotos se acomodan una al lado de la otra automaticamente( 50% cada una)*/
+.foto{
+min-height: 120px; /* espacio para la imagen */
+padding: 35px 10px 10px 10px;
+font-size: 11px;
+border-bottom:2px solid #000;
+}
+/* borde vertical divisor solo en la primera foto */
+.foto:nth-of-type(odd){
+border-right: 2px solid #000;
+}
+/*la rerseña se salta al fondo ocupada las dos columnas*/
+.resenia{
+  grid-column: span 2;
+  padding: 10px;
+  
+}
 .multimedia{
 width: 800;
 background-color: aliceblue;
@@ -160,24 +206,30 @@ width: 600;
 }
 
 /*estadios*/
-#estadosunidos,#estadosunidos tr, #estadosunidos td, #estadosunidos th{
-  border: solid rgb(237, 100, 100) 3px;
-  border-collapse: collapse;
+#estadosunidos, #estadosunidos tr, #estadosunidos td, #estadosunidos th{
+border:solid #540606;
+border-collapse: collapse;
+
 }
 #estadosunidos img{
   width: 200px;
 }
 #canada, #canada tr, #canada td, #canada th{
-  border: solid rgb(237, 105, 100) 3px;
+  border:solid #540606;
   border-collapse: collapse;
-}
-#canada img{
-  width: 200px;
-}
-#mexico, #mexico tr, #mexico td, #mexico th{
-  border: solid rgb(237, 100, 100) 3px;
-  border-collapse: collapse;
-}
-#mexico img{
-  width: 200px;
+  
+  }
+  #canada img{
+    width: 200px;
+  }
+  #mexico,#mexico tr,#mexico td,#mexico th{
+    border: solid #540606;
+    border-collapse: collapse;
+  }
+  #mexico img{
+    width: 200px;
+  }
+
+.video_mun{
+  width: 600px;
 }
