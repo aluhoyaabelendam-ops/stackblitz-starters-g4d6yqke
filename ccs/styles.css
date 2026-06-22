@@ -201,7 +201,7 @@ width: 800;
 background-color: aliceblue;
 
 }
-.multimedia audio{
+.multimedia video{
 width: 600;
 }
 
@@ -231,5 +231,5 @@ border-collapse: collapse;
   }
 
 .video_mun{
-  width: 600px;
+  width: 700px;
 }
